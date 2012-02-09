@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="i7A3Vpq6pQhgDsv30aFNexQwLDTJtfNBpF2xxwOSZCA" />
+<title>Tabbr - The Ultimate Tab Finder</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js" ></script>
+<script type="text/javascript" src="hashchange.js"></script>
+<script type="text/javascript" src="easing.js"></script>
+<script type="text/javascript" src="tabbr.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20284377-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<div id="header">
+		<div id="logowrapper"><div id="logo"></div></div>
+	</div>
+	
+	<div id="container">
+		<!-- Start Tab File View -->
+		<div id="tab_file_container">
+			<div id="tab_file_close_img"></div>
+			<div id="tab_file"></div>
+		</div>
+		<!-- End Tab File View -->
+		<div id="search">
+			<input type="text" class="search_default" id="search_bar" value="Enter an artist, track or both."/>
+		</div>
+		<div id="error"></div>
+		<!-- Start Info Panel -->
+		<div id="info_panel" >
+			<div id="currently_searching">
+				<div id="currently_searching_img"></div>
+				<span>Searching...</span>
+				<div id="stop_search">
+					<div id="stop_search_img"></div>
+				</div>
+			</div>
+			<div id="navigation">
+				<div id="rightarrow">
+					<div id="rightarrowimg"></div>
+				</div>
+				<div id="leftarrow">
+					<div id="leftarrowimg"></div>
+				</div>
+			</div>
+			<div id="page_info">
+				<span>1 of 1</span>
+			</div>
+			<div id="counter">
+				<div id="counter_img"></div>
+				<span>0</span>
+			</div>
+
+		</div>
+		<!-- End Info Panel -->
+		
+		<!-- Start Tabs Wrapper -->
+		<div id="tab_wrapper">
+			
+			<!-- Tab Container -->
+			<div id="tab_container">
+				
+				<!-- Start Artist Block Wrapper -->
+				<div class="artist_block_wrapper">
+				
+				</div>
+				<!-- End Artist Block Wrapper -->
+				
+			</div>
+			<!-- End Tab Container -->
+
+		</div>
+		<!-- End Tabs Wrapper -->
+		
+	</div>
+	
+</body>
+</html>
