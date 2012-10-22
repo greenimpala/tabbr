@@ -1,7 +1,6 @@
-#Tabbr
+#Tabbr...
+...(or, how **not** to write a web application)
 
-Ultimate Guitar has since released an official API, tabbr originally 'page scraped' to obtain results which is now blocked.
+This was my first web-app so I am leaving it be!
 
-Simple AJAX tab / chord finder for Ultimate Guitar's archive.
-
-<img src="http://i41.tinypic.com/jki0px.jpg" />
+<img src="http://i41.tinypic.com/jki0px.jpg" height="auto" width="40%" />
